@@ -30,7 +30,8 @@ dt:hover + dd{
 	background-color: purple}
 
 form {
-	border: solid thin; padding: px;}
+	border: solid thin; 
+	padding: 5 px;}
 
 div.outer-content{
 	position: relative;
