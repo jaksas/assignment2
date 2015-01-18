@@ -1,0 +1,60 @@
+
+table {border: solid thin;}
+td ,th[scope=row]{
+	border: solid thin; 
+	height: 1.4em; 
+	width: 1.4em; 
+	text-align: center; 
+	border-color: black; 
+	padding: 3px;}
+	
+th{
+	font-weight: normal; 
+	font-style: italic}
+	
+tbody tr td:nth-child(4){
+	color: blue}
+
+tbody tr td:nth-child(2){
+	color: red}
+
+tbody tr:nth-child(odd){
+	background-color: lightgreen}
+
+tbody tr:nth-child(even){
+	background-color: lightblue}
+
+thead{
+	font-weight: bold; color: black}
+
+dt:hover + dd{
+	background-color: purple}
+
+form {
+	border: solid thin; padding: px;}
+
+div.outer-content{
+	position: relative;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	margin-left: 0px; 
+	height: 100px; 
+	width: 75%; 
+	background-color: pink;}
+	
+div.inner-content{
+	position: absolute; 
+	margin: auto; 
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0; 
+	height: 75px;
+	width: 75%; 
+	background-color: blue;}
+
+img{float: left; margin-right: 10px}	
+
+
+
+
