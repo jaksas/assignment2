@@ -1,4 +1,3 @@
-
 table {border: solid thin;}
 td ,th[scope=row]{
 	border: solid thin; 
@@ -54,7 +53,3 @@ div.inner-content{
 	background-color: blue;}
 
 img{float: left; margin-right: 10px}	
-
-
-
-
